@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "c:/Users/subha/Desktop/IMDb-Automation/IMDb-Automation-main/keywords",
+        "c:/Users/subha/Desktop/IMDb-Automation/IMDb-Automation-main/libraries",
+        "c:/Users/subha/Desktop/IMDb-Automation/IMDb-Automation-main/variables",
+        "c:/Users/subha/Desktop/IMDb-Automation/IMDb-Automation-main/qrlib",
+        "c:/Users/subha/Desktop/IMDb-Automation/IMDb-Automation-main/app"
+    ],
+    "python.terminal.activateEnvironment": false
+}
