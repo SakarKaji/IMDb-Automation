@@ -2,6 +2,8 @@ from RPA.Excel.Files import Files
 from constants import excel_file
 from qrlib.QRComponent import QRComponent
 
+# import pandas as pd
+
 
 class Excel(QRComponent):
     def __init__(self) -> None:
@@ -15,4 +17,11 @@ class Excel(QRComponent):
         # for row in data:
             # print(data)
         return data
+
+        # try:
+        #     movies = pd.read_excel(excel_file)
+        #     return movies['Movie']
+        # except Exception as ex:
+        #     raise ex
+
 

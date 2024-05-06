@@ -288,7 +288,7 @@ class BrowserComponent(QRComponent):
 
             
 
-        sel.input_text_when_element_is_visible(search_path, movie)
+        sel.input_text_when_element_is_visible(search_path, movie['Movie'])
 
         BuiltIn().log_to_console(movie)
         # sel.press_keys(None,'\ue007')  #\ue007
